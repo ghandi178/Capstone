@@ -30,7 +30,7 @@ input{
 }
 
 .logo img{
-    width: 90px;
+    width: 170px;
 }
 
 #main{
@@ -49,7 +49,7 @@ input{
     content: "";
     background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
     background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
-    background: radial-gradient(ellipse at center, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: radial-gradient(ellipse at left, rgba(31, 134, 131, 0.4) 0%, rgba(0, 0, 0, 0.7) 40%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
     top: 0;
     left: 0;
@@ -73,7 +73,7 @@ nav{
 
 nav.active{
 	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.157);
-	background-color: #000000;
+	background-color: #434242;
 }
 
 nav ul{
@@ -123,7 +123,7 @@ nav .menu-btn, .menu-icon {
 
 .name {
     text-align: center;
-	font-family: 'Montserrat';
+	font-family: 'Roboto';
 	width: 900px;
 	position: absolute;
     left: 50%;
@@ -132,12 +132,12 @@ nav .menu-btn, .menu-icon {
 }
 
 .name span{
-    color: #FF1414;
+    color: #22A39F;
 }
 
 .name .details{
     font-size: 23px;
-    color: #c5c5c5;
+    color: #ffffff;
 }
 
 .name h2{
@@ -169,7 +169,7 @@ nav .menu-btn, .menu-icon {
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
-    background-color: #FF1414;
+    background-color: #22A39F;
     box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
     border-radius: 5px;
 	color:#ffffff;
@@ -179,7 +179,7 @@ nav .menu-btn, .menu-icon {
 	background-color: transparent;
     transition: all ease 0.5s;
     color: #ffffff;
-    border: 2px solid #FF1414;
+    border: 3px solid #22A39F;
 }
 
 #features{
@@ -473,7 +473,7 @@ nav .menu-btn, .menu-icon {
         font-size: 3rem;
     }
     .name .details{
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .pr-heading{
 		left: 50%;
@@ -526,7 +526,7 @@ nav .menu-btn, .menu-icon {
         display:none;
     }
     .header-btn{
-        margin-left: 20%;
+        /* margin-left: 20%; */
         margin-top: 20px;
     }
     .pr-btn{
@@ -563,7 +563,7 @@ nav .menu-btn, .menu-icon {
     }
 }
 
-@media(max-width:768px){.menu-icon{
+@media(max-width:740px){.menu-icon{
     display:block;}
         nav{
             justify-content: space-between;
@@ -571,10 +571,10 @@ nav .menu-btn, .menu-icon {
             padding: 0px 30px;
         }
         .logo img{
-            width:70px;
+            width:100px;
         }
         .header-btns{
-            margin: 0;
+            margin-left: 20%;
         }
         .pr-btns{
             margin: 0;
