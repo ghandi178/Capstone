@@ -184,7 +184,7 @@ nav .menu-btn, .menu-icon {
 
 #features{
     width:100%;
-    height:120vh;
+    /* height:120vh; */
     box-sizing: border-box;
     font-family:'Roboto';
     display: flex;
@@ -192,7 +192,7 @@ nav .menu-btn, .menu-icon {
     align-items: center;
     justify-content: center;
     padding-top: 40px ;
-    background-color: #000000;
+    background-color: #22A39F;
 }
 
 #features h1{
@@ -209,7 +209,7 @@ nav .menu-btn, .menu-icon {
 }
 
 .a-box{
-    background-color: #000000;
+    background-color: #F3EFE0;
     width:250px;
     height: 400px;
     margin: 20px;
@@ -227,9 +227,9 @@ nav .menu-btn, .menu-icon {
 
 .a-b-img img{
     padding: 15px;
-    margin-top: 40px;
-    width:100%;
-    height: 50%;
+    margin-top: 20px;
+    width: 100%;
+    height: 75%;
 
 }
 
@@ -241,12 +241,13 @@ nav .menu-btn, .menu-icon {
 .a-b-text{
     width: 100%;
     height: 40%;
-    background-color:#000000;
+    background-color:#434242;
     display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .a-b-text h2{
