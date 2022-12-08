@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import FeatureBox from './FeatureBox';
 import fimage1 from '../images/bmi.png';
 import fimage2 from '../images/bmr.png';

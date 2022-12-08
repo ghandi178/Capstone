@@ -5,6 +5,8 @@
 /segar-web-main/.pnp
 .pnp.js
 
+/restful-express-mysql/node_modules
+
 # testing
 /segar-web-main/coverage
 
