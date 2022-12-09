@@ -3,7 +3,7 @@
 body {
     margin:0px;
     padding: 0px;
-    background-color: #000000;
+    background-color: #d1d1d1;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -121,7 +121,7 @@ nav .menu-btn, .menu-icon {
     display:none;
 }
 
-.name {
+.hero {
     text-align: center;
 	font-family: 'Roboto';
 	width: 900px;
@@ -131,16 +131,16 @@ nav .menu-btn, .menu-icon {
 	transform: translate(-50%,-55%);
 }
 
-.name span{
+.hero span{
     color: #22A39F;
 }
 
-.name .details{
+.hero .details{
     font-size: 23px;
     color: #ffffff;
 }
 
-.name h2{
+.hero h2{
 	font-family:'Roboto';
 	font-size: 2.7rem;
 	margin:0px;
@@ -148,7 +148,7 @@ nav .menu-btn, .menu-icon {
 	color:#ffffff;
 }
 
-.name h1{
+.hero h1{
 	font-family:'Roboto';
 	font-size: 5rem;
 	margin:0px;
@@ -250,8 +250,12 @@ nav .menu-btn, .menu-icon {
     cursor: pointer;
 }
 
-.a-b-text h2{
+.a-b-text h2 a{
     color: #fff;
+}
+
+.a-b-text h2 a:hover{
+    color: #FF1414;
 }
 
 .a-b-text p{
@@ -461,19 +465,19 @@ nav .menu-btn, .menu-icon {
 		background-size: 1150px !important;
 		
 	}
-	.name{
+	.hero{
 		left: 50%;
 		top: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
     }
-    .name h2{
+    .hero h2{
         font-size: 1.5rem;
     }
-    .name h1{
+    .hero h1{
         font-size: 3rem;
     }
-    .name .details{
+    .hero .details{
         font-size: 1.2rem;
     }
     .pr-heading{
@@ -513,7 +517,7 @@ nav .menu-btn, .menu-icon {
 	#main{
 		height: 650px;
 	}
-	.name{
+	.hero{
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%,-50%);
@@ -556,7 +560,7 @@ nav .menu-btn, .menu-icon {
 }
 
 @media(max-width:600px){
-	.name{
+	.hero{
 		width:60%;
     }
     .pr-heading{

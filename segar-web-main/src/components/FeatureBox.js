@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function FeatureBox(props) {
   return (
@@ -8,7 +8,9 @@ function FeatureBox(props) {
         <img src={props.image} alt='' />
       </div>
       <div className='a-b-text'>
-        <h2>{props.title}</h2>
+        <h2>
+          <Link to={props.path}>{props.title}</Link>{' '}
+        </h2>
       </div>
     </div>
   );
