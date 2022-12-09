@@ -282,72 +282,48 @@ nav .menu-btn, .menu-icon {
     margin-top:15px ;
 }
 
-#presentaion{
+#articles{
     padding-top: 30px;
     width:100%;
     height:768px;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    /* background-repeat: no-repeat;
+    background-size: cover; */
     text-align: center;
 }
 
-.pr-heading{
-    text-align: center;
-	font-family:'Roboto';
-	width: 600px;
-	position: absolute;
-    left: 50%;
-	top: 55%;
-	transform: translate(-50%,-55%);
+.notes-list {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    padding: 16px 8px;
 }
 
-.pr-heading span{
-    color: #FF1414;
+.note-item {
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    border-top: 5px solid;
 }
 
-.pr-heading .details{
-    font-size: 23px;
-    color: #c5c5c5;
+.note-item__title {
+    margin: 4px 0;
 }
 
-.pr-heading .details{
-    font-size: 1.2rem;
+.note-item__createdAt {
+    color: grey;
+    font-size: 14px;
+    margin: 4px 0;
 }
 
-.pr-heading h1{
-	font-family:'Roboto';
-	font-size: 4rem;
-	margin:0px;
-	letter-spacing: 2px;
-	color:#ffffff;
-}
-
-.pr-btns{
-    display: flex;
-    margin-top: 40px;
-    margin-left: 35%;
-}
-
-.pr-btn{
-	width:160px;
-	height: 50px;
-	display: flex;
-	justify-content: center;
-    align-items: center;
-    font-size: 1.4rem;
-    background-color: #FF1414;
-    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
-    border-radius: 5px;
-	color:#ffffff;
-}
-
-.pr-btn:hover{
-	background-color: transparent;
-    transition: all ease 0.5s;
-    color: #ffffff;
-    border: 2px solid #FF1414;
+.note-item__body {
+    margin-top: 16px;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
 }
 
 #about{
