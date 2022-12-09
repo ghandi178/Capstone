@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => {
+const Hero = () => {
   return (
     <div id='main'>
       <div className='name'>
@@ -21,4 +21,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;

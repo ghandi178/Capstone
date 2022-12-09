@@ -1,14 +1,19 @@
 import React from 'react';
-import Feature from './components/Feature';
-import Header from './components/Header';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
 
 const App = () => {
   return (
     <div className='App'>
-      <Navbar />
-      <Header />
-      <Feature />
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+        </Routes>
+      </main>
     </div>
   );
 };
