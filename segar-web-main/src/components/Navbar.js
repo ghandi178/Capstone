@@ -20,7 +20,7 @@ const Navbar = () => {
         <img src={logo} alt='segar.id' />
       </Link>
       <input className='menu-btn' type='checkbox' id='menu-btn' />
-      <label className='menu-icon' for='menu-btn'>
+      <label className='menu-icon' htmlFor='menu-btn'>
         <span className='nav-icon'></span>
       </label>
       <ul className='menu'>
@@ -31,7 +31,7 @@ const Navbar = () => {
           <Link to='features'>Feature</Link>
         </li>
         <li>
-          <Link to='#'>Articles</Link>
+          <Link to='articles'>Articles</Link>
         </li>
         <li>
           <Link to='#'>About Us</Link>

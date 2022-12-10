@@ -1,10 +1,19 @@
-const BASE_URL = 'http://34.101.34.252/api';
+const BASE_URL = 'https://restful-mysql.herokuapp.com/api';
 
 async function getArticles() {
   const response = await fetch(`${BASE_URL}/article`);
   const responseJson = await response.json();
+
   console.log(responseJson);
-  return [];
+
+  return { error: false, data: responseJson };
 }
 
-//http://34.101.34.252/api/article
+async function getArticle(id) {
+  const response = await fetch(`${BASE_URL}/article/${id}`);
+  const responseJson = await response.json();
+
+  return { error: false, data: responseJson };
+}
+
+export { getArticle, getArticles };
