@@ -184,7 +184,6 @@ nav .menu-btn, .menu-icon {
 
 #features{
     width:100%;
-    /* height:120vh; */
     box-sizing: border-box;
     font-family:'Roboto';
     display: flex;
@@ -195,17 +194,15 @@ nav .menu-btn, .menu-icon {
     background-color: #22A39F;
 }
 
-#features h1{
+#features h2{
     color: #fff;
-    font-size: 3rem;
+    /* font-size: 3rem; */
 }
 
 .a-container{
     display: flex;
     justify-content: center;
     align-content: center;
-
-
 }
 
 .a-box{
@@ -222,7 +219,6 @@ nav .menu-btn, .menu-icon {
 .a-b-img{
     width: 100%;
     height: 60%;
-
 }
 
 .a-b-img img{
@@ -230,7 +226,6 @@ nav .menu-btn, .menu-icon {
     margin-top: 20px;
     width: 100%;
     height: 75%;
-
 }
 
 .a-box:hover{
@@ -285,7 +280,7 @@ nav .menu-btn, .menu-icon {
 #articles{
     padding-top: 30px;
     text-align: center;
-    margin: 0 20px;
+    margin: 30px 20px;
 }
 
 #articles a {
@@ -344,33 +339,33 @@ nav .menu-btn, .menu-icon {
 #about{
     margin-top:100px ;
 	width:100%;
-	height: 120vh;
 	box-sizing: border-box;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 50px 5% 0px 5%;
+	padding: 60px 5% 40px 5%;
 	position: relative;
+    background-color: #22A39F;
 }
 
 .about-text {
-    width: 45%;
+    width: 35%;
     color: #fff;
     list-style: circle;
 }
 
-.about-text h1 {
-	font-size: 3rem;
-	color:#FF1414;
+.about-text h2 {
+	font-size: 2rem;
+	color:white;
     font-weight: 500;
     margin: 0px;
-	padding: 0px;
+	padding-top: 60px;
 }
 
 .about-text p{
     width: 80%;
 	font-size: 1.2rem;
-	color:#cecece;	
+	color:#e7e7e7;	
 }
 
 .about-text button{
@@ -396,7 +391,7 @@ nav .menu-btn, .menu-icon {
 }
 
 .about-image img{
-  width: 600px;
+    height: 500px;
 }
 
 #contact{
@@ -443,6 +438,26 @@ nav .menu-btn, .menu-icon {
     background: linear-gradient(90deg, #FF1414 20%,#f70000);
     color: #ffffff;
     text-transform: uppercase;
+}
+
+#footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* position: fixed; */
+	left: 0;
+	top: 0;
+    height: 80px;
+	width:100%;
+    background-color: #434242;
+}
+
+#footer .logo img {
+    text-align: left;
+}
+
+div.footer-text p {
+    color: white;
 }
 
 @media(max-width:620px){
@@ -522,7 +537,6 @@ nav .menu-btn, .menu-icon {
         display:none;
     }
     .header-btn{
-        /* margin-left: 20%; */
         margin-top: 20px;
     }
     .pr-btn{

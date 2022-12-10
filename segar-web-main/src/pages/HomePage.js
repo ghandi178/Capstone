@@ -4,6 +4,8 @@ import Hero from '../components/Hero';
 import PropTypes from 'prop-types';
 import { getArticles } from '../utils/network-data';
 import ArticleList from '../components/ArticleList';
+import About from '../components/About';
+import Footer from '../components/Footer';
 
 // const HomePage = () => {
 //   return (
@@ -65,6 +67,8 @@ class HomePage extends React.Component {
         <Hero />
         <Feature />
         <ArticleList articles={articles} />
+        <About />
+        <Footer />
       </>
     );
   }
