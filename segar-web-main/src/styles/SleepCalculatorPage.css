@@ -32,7 +32,7 @@ form {
 #hour,
 #minute,
 #time {
-  width: 3rem;
+  width: 4.2rem;
   height: 3rem;
   font-size: 14px;
   text-align: center;
@@ -51,6 +51,7 @@ form {
 
 button.btn-calc {
   background-color: #4d4d4d;
+  margin-top: 20px;
   border: 1px solid transparent;
   border-radius: .75rem;
   box-sizing: border-box;
