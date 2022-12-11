@@ -1,20 +1,9 @@
 import React from 'react';
 import Feature from '../components/Feature';
 import Hero from '../components/Hero';
-import PropTypes from 'prop-types';
 import { getArticles } from '../utils/network-data';
 import ArticleList from '../components/ArticleList';
 import About from '../components/About';
-import Footer from '../components/Footer';
-
-// const HomePage = () => {
-//   return (
-//     <>
-//       <Hero />
-//       <Feature />
-//     </>
-//   );
-// };
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -68,7 +57,6 @@ class HomePage extends React.Component {
         <Feature />
         <ArticleList articles={articles} />
         <About />
-        <Footer />
       </>
     );
   }
