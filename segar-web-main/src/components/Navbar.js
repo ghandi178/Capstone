@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../images/logo.png';
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     <nav className={nav ? 'nav active' : 'nav'}>
-      <Link to='main' className='logo'>
+      <Link to='/' className='logo'>
         <img src={logo} alt='segar.id' />
       </Link>
       <input className='menu-btn' type='checkbox' id='menu-btn' />
@@ -25,16 +25,16 @@ const Navbar = () => {
       </label>
       <ul className='menu'>
         <li>
-          <Link to='#'>Home</Link>
+          <Link to='/'>Home</Link>
         </li>
         <li>
-          <Link to='features'>Feature</Link>
+          <Link to='/features'>Feature</Link>
         </li>
         <li>
-          <Link to='articles'>Articles</Link>
+          <Link to='/articles'>Articles</Link>
         </li>
         <li>
-          <Link to='#'>About Us</Link>
+          <Link to='/about'>About Us</Link>
         </li>
       </ul>
     </nav>

@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage';
 import DetailPage from './pages/DetailPage';
 import Footer from './components/Footer';
 import ArticlesPage from './pages/ArticlesPage';
+import AboutPage from './pages/AboutPage';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/bmr' element={<BMRPage />} />
           <Route path='/articles' element={<ArticlesPage />} />
           <Route path='/article/:id' element={<DetailPage />} />
+          <Route path='/about' element={<AboutPage />} />
         </Routes>
       </main>
       <footer>
