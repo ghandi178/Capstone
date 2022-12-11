@@ -168,28 +168,29 @@ nav .menu-btn, .menu-icon {
 }
 
 .header-btns{
-    display: flex;
+    display: block;
     margin-top: 40px;
-    margin-left: 40%;
+    text-align: center;
 }
 
 .header-btn{
 	width:160px;
 	height: 50px;
-	display: flex;
+	/* display: flex; */
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
     background-color: #22A39F;
-    box-shadow: 5px 10px 30px rgba(255, 2, 2, 0.336);
+    /* box-shadow: 5px 8px 20px rgba(17, 252, 240, 0.486); */
     border-radius: 5px;
 	color:#ffffff;
+    cursor: pointer;
 }
 
 .header-btn:hover{
 	background-color: transparent;
     transition: all ease 0.5s;
-    color: #ffffff;
+    color: #22A39F;
     border: 3px solid #22A39F;
 }
 
@@ -214,6 +215,8 @@ nav .menu-btn, .menu-icon {
     display: flex;
     justify-content: center;
     align-content: center;
+    margin: 20px 0;
+    padding: 20px;
 }
 
 .a-box{

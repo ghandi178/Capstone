@@ -1,11 +1,9 @@
 import React from 'react';
-import Feature from '../components/Feature';
-import Hero from '../components/Hero';
 import { getArticles } from '../utils/network-data';
-import About from '../components/About';
-import ArticleListHome from '../components/ArticleListHome';
+import ArticleList from '../components/ArticleList';
+import HeroDetail from '../components/HeroDetail';
 
-class HomePage extends React.Component {
+class ArticlesPage extends React.Component {
   constructor(props) {
     super(props);
 
@@ -53,18 +51,16 @@ class HomePage extends React.Component {
           keyword={this.state.keyword}
           keywordChange={this.onKeywordChangeHandler}
         /> */}
-        <Hero />
-        <Feature />
-        <ArticleListHome articles={articles} />
-        <About />
+        <HeroDetail />
+        <ArticleList articles={articles} />
       </>
     );
   }
 }
 
-HomePage.propType = {
+ArticlesPage.propType = {
   // defaultKeyword: PropTypes.string.isRequired,
   // keywordChange: PropTypes.func.isRequired,
 };
 
-export default HomePage;
+export default ArticlesPage;

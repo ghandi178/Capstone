@@ -6,6 +6,7 @@ import BMRPage from './pages/BMRPage';
 import HomePage from './pages/HomePage';
 import DetailPage from './pages/DetailPage';
 import Footer from './components/Footer';
+import ArticlesPage from './pages/ArticlesPage';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <Route path='/' element={<HomePage />} />
           <Route path='/bmi' element={<BMIPage />} />
           <Route path='/bmr' element={<BMRPage />} />
+          <Route path='/articles' element={<ArticlesPage />} />
           <Route path='/article/:id' element={<DetailPage />} />
         </Routes>
       </main>
