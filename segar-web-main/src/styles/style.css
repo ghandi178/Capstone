@@ -47,8 +47,8 @@ input{
 #main::before{
     position: absolute;
     content: "";
-    background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(31, 134, 131, 0.4) 0%, rgba(0, 0, 0, 0.7) 40%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(31, 134, 131, 0.4) 0%, rgba(0, 0, 0, 0.7) 40%);
     background: radial-gradient(ellipse at left, rgba(31, 134, 131, 0.4) 0%, rgba(0, 0, 0, 0.7) 40%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
     top: 0;
@@ -73,7 +73,7 @@ nav{
 
 #hero-detail{
     width:100%;
-    height:400px;
+    height:450px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,11 +84,22 @@ nav{
 
 #hero-about{
     width:100%;
-    height:400px;
+    height:450px;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../images/about-us-page.jpg');
+    position: relative;
+    z-index: 0;
+}
+
+#hero-feature{
+    width:100%;
+    height:650px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/healthy.jpg');
     position: relative;
     z-index: 0;
 }
@@ -219,7 +230,6 @@ nav .menu-btn, .menu-icon {
 
 #features h2{
     color: #fff;
-    /* font-size: 3rem; */
 }
 
 .a-container{
@@ -425,34 +435,34 @@ nav .menu-btn, .menu-icon {
     width: 90%;
   }
   
-  .detail-page__title {
+.detail-page__title {
     font-size: 48px;
     margin-bottom: 8px;
     word-wrap: break-word;
-  }
-  
-  .detail-page__createdAt {
+}
+
+.detail-page__createdAt {
     color: var(--on-background-grey)
-  }
-  
-  .detail-page__body {
+}
+
+.detail-page__body {
     line-height: 1.5;
     margin-top: 36px;
     margin-bottom: 30px;
     font-size: 18px;
-  }
-  
-  .detail-page__body a, .login-page__footer a, .register-page__footer a {
+}
+
+.detail-page__body a, .login-page__footer a, .register-page__footer a {
     text-decoration: underline;
-  }
-  
-  .detail-page__action, .homepage__action, .add-new-page__action {
+}
+
+.detail-page__action, .homepage__action, .add-new-page__action {
     position: fixed;
     display: flex;
     gap: 16px;
     bottom: 32px;
     right: 32px;
-  }
+}
 
 #footer{
 	display: flex;

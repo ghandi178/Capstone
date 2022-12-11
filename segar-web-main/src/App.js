@@ -8,6 +8,7 @@ import DetailPage from './pages/DetailPage';
 import Footer from './components/Footer';
 import ArticlesPage from './pages/ArticlesPage';
 import AboutPage from './pages/AboutPage';
+import FeaturePage from './pages/FeaturePage';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/articles' element={<ArticlesPage />} />
           <Route path='/article/:id' element={<DetailPage />} />
           <Route path='/about' element={<AboutPage />} />
+          <Route path='/features' element={<FeaturePage />} />
         </Routes>
       </main>
       <footer>
