@@ -24,11 +24,6 @@ button {
     border: none;
 }
 
-/* input{
-    outline: none;
-    border: none;
-} */
-
 .logo img{
     width: 170px;
 }
@@ -198,12 +193,10 @@ nav .menu-btn, .menu-icon {
 .header-btn{
 	width:160px;
 	height: 50px;
-	/* display: flex; */
 	justify-content: center;
     align-items: center;
     font-size: 1.4rem;
     background-color: #22A39F;
-    /* box-shadow: 5px 8px 20px rgba(17, 252, 240, 0.486); */
     border-radius: 5px;
 	color:#ffffff;
     cursor: pointer;

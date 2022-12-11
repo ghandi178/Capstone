@@ -11,10 +11,7 @@ class HomePage extends React.Component {
 
     this.state = {
       articles: [],
-      // keyword: props.defaultKeyword || '',
     };
-
-    // this.onKeywordChangeHandler = this.onKeywordChangeHandler.bind(this);
   }
 
   async componentDidMount() {
@@ -27,30 +24,11 @@ class HomePage extends React.Component {
     });
   }
 
-  // onKeywordChangeHandler(keyword) {
-  //   this.setState(() => {
-  //     return {
-  //       keyword,
-  //     };
-  //   });
-
-  //   this.props.keywordChange(keyword);
-  // }
-
   render() {
     const articles = this.state.articles;
-    // .filter((article) => {
-    //   return article.title
-    //     .toLowerCase()
-    //     .includes(this.state.keyword.toLowerCase());
-    // });
 
     return (
       <>
-        {/* <SearchBar
-          keyword={this.state.keyword}
-          keywordChange={this.onKeywordChangeHandler}
-        /> */}
         <Hero />
         <Feature />
         <ArticleListHome articles={articles} />
@@ -59,10 +37,5 @@ class HomePage extends React.Component {
     );
   }
 }
-
-HomePage.propType = {
-  // defaultKeyword: PropTypes.string.isRequired,
-  // keywordChange: PropTypes.func.isRequired,
-};
 
 export default HomePage;
