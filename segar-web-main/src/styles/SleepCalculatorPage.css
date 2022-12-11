@@ -1,0 +1,80 @@
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+div#calculator-container {
+  margin: 5px 40px;
+}
+
+#form-container {
+  text-align: center;
+}
+
+form {
+  margin: 1rem;
+}
+
+#inputs {
+  text-align: center;
+}
+
+#colon {
+  margin: auto 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#hour,
+#minute,
+#time {
+  width: 3rem;
+  height: 3rem;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+#hour:focus,
+#minute:focus,
+#time:focus {
+  outline: none;
+}
+#hour,
+#minute {
+  margin: 1rem;
+}
+
+button.btn-calc {
+  background-color: #4d4d4d;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+button.btn-calc:hover {
+  background-color: #374151;
+}
+  

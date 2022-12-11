@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import ArticlesPage from './pages/ArticlesPage';
 import AboutPage from './pages/AboutPage';
 import FeaturePage from './pages/FeaturePage';
+import SleepCalculatorPage from './pages/SleepCalculatorPage';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/' element={<HomePage />} />
           <Route path='/bmi' element={<BMIPage />} />
           <Route path='/bmr' element={<BMRPage />} />
+          <Route path='/sleepcalculator' element={<SleepCalculatorPage />} />
           <Route path='/articles' element={<ArticlesPage />} />
           <Route path='/article/:id' element={<DetailPage />} />
           <Route path='/about' element={<AboutPage />} />

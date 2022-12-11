@@ -23,8 +23,6 @@ class ArticlesPage extends React.Component {
         articles: data,
       };
     });
-
-    // console.log(data);
   }
 
   // onKeywordChangeHandler(keyword) {

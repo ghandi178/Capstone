@@ -25,8 +25,6 @@ class HomePage extends React.Component {
         articles: data,
       };
     });
-
-    // console.log(data);
   }
 
   // onKeywordChangeHandler(keyword) {
